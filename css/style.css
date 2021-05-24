@@ -67,15 +67,40 @@
 
 .jumbo{
     width: 100%;
-    height: 50vh;
-    background-color: red;
+    height: 75vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.jumbo > h1{
+    color: white;
+    margin-left: 5%;
+    
+}
+.jumbo > p{
+    color: white;
+    max-width: 20%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    margin-left: 5%;
 }
 .item{
     width: 100%;
     height: 20vh;
-    border: 1px solid black;
-    background-color: chartreuse;
+    
+    
 }
+.item > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    border: 1px solid blue;
+}
+
 .titolo{
     width: 100%;
     height: 20vh;
